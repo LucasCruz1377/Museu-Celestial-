@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens</title>
     <link rel="stylesheet" href="../CSS/style.css">
+
 </head>
 <body>
     <header>
@@ -24,12 +25,23 @@
     </nav>
 
     <main>
-        <div class="sobre">
-            <div class="container-personagens">
-                <h1>Personagens de Celeste</h1>
-                <img src="../Images/celeste-selfie.jpg" alt="">
+        <section class="exposicoes">
+            <div class="sobre">
+                <div class="container-personagens">
+                    <h1>Personagens de Celeste</h1>
+                    <img class="foto-troca" src="" alt="">
+                </div>
+                <div>
+                    <h1 class="legenda"></h1>
+                </div>
             </div>
-        </div>
+            <div class="botaotroca">
+                <button onclick="foto_proxima()">Proxima foto</button>
+            </div>
+            <div class="botaotroca">
+                <button onclick="foto_anterior()">Foto anterior</button>
+            </div>
+        </section>
     </main>
 
 
@@ -38,5 +50,6 @@
             <a class="voltar" href="../index.html">Voltar ao Inicio</a>
         </div>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
