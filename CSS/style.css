@@ -22,6 +22,19 @@ body
     padding: 0 20px;
     text-align: center;
 }
+
+.container-personagens
+{
+    margin: 20px auto;
+    pad: 0 20px;
+    text-align: center;
+}
+.container-personagens img
+{
+    height: 300px;
+}
+
+
 header
 {
 text-align: center;
@@ -200,3 +213,25 @@ nav
     font-weight: 600;
 }
 
+
+.voltar
+{
+    position: relative;
+    top: 100px;
+    background-image: url(../Images/button_bg.jpg);
+    border: none;
+    padding: 30px 20px;
+    border-radius: 50px;
+    position: relative;
+    transition: ease 1s;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 0px rgba(255,255,255,0);
+}
+
+
+.voltar:hover
+{
+    background-position: 0 -550px ;
+    box-shadow: 0 0 100px rgba(255,255,255,0.9);
+}
