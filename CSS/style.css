@@ -263,3 +263,10 @@ nav
 {
     background: white;
 }
+
+.botoes
+{
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}

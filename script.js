@@ -19,6 +19,7 @@ function foto_proxima()
     {
         i = 0
     }
+    document.querySelector(".numeroimg").textContent = `${i + 1} / ${fotos.length}`
     document.querySelector(".foto-troca").src = `${fotos[i].foto}`
     document.querySelector(".legenda").textContent = `${fotos[i].legenda}`
 }
@@ -32,6 +33,9 @@ function foto_anterior()
     {
         i = fotos.length - 1
     }
+    document.querySelector(".numeroimg").textContent = `${i + 1} / ${fotos.length}`
     document.querySelector(".foto-troca").src = `${fotos[i].foto}`
     document.querySelector(".legenda").textContent = `${fotos[i].legenda}`
 }
+
+
